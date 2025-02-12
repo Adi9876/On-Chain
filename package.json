@@ -1,0 +1,23 @@
+{
+  "name": "onchain-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node api.js && tsc",
+    "start": "node api.js && tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "openai": "^4.77.0",
+    "typescript": "^5.7.2",
+    "viem": "^2.21.57"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "node-fetch": "^3.3.2"
+  }
+}
