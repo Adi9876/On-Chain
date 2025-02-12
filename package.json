@@ -17,6 +17,7 @@
     "viem": "^2.21.57"
   },
   "dependencies": {
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "node-fetch": "^3.3.2"
   }
 }
